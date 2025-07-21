@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineParser", "Comman
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLParserDemo", "..\CLParserDemo\CLParserDemo.csproj", "{42CAEA62-BA97-4C31-B302-608BBF6271D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "..\TestProject\TestProject.csproj", "{8E188D0D-210B-422E-B24B-6E6EEE525EA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{42CAEA62-BA97-4C31-B302-608BBF6271D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42CAEA62-BA97-4C31-B302-608BBF6271D6}.Release|x64.ActiveCfg = Release|x64
 		{42CAEA62-BA97-4C31-B302-608BBF6271D6}.Release|x64.Build.0 = Release|x64
+		{8E188D0D-210B-422E-B24B-6E6EEE525EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E188D0D-210B-422E-B24B-6E6EEE525EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E188D0D-210B-422E-B24B-6E6EEE525EA0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8E188D0D-210B-422E-B24B-6E6EEE525EA0}.Debug|x64.Build.0 = Debug|Any CPU
+		{8E188D0D-210B-422E-B24B-6E6EEE525EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E188D0D-210B-422E-B24B-6E6EEE525EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E188D0D-210B-422E-B24B-6E6EEE525EA0}.Release|x64.ActiveCfg = Release|Any CPU
+		{8E188D0D-210B-422E-B24B-6E6EEE525EA0}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

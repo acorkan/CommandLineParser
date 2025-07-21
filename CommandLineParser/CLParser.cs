@@ -14,9 +14,15 @@ namespace CommandLineParser
 
         public string AppPath { get; }
 
-        public CLParser()
+        public CLParser() : this(Environment.GetCommandLineArgs()) { }
+
+        /// <summary>
+        /// Just for testing purposes, to allow passing command line arguments directly.
+        /// </summary>
+        /// <param name="cmdArgs"></param>
+        protected CLParser(string[] cmdArgs)
         {
-            var args = new List<string>(Environment.GetCommandLineArgs());
+            List<string> args = new List<string>(cmdArgs);
             AppPath = args[0];
             args.RemoveAt(0); // Remove the application path from the arguments
             _cmdLineArgs = args.ToArray();
