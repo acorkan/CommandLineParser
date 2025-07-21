@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CommandLineParser": {
+      "commandName": "Project",
+      "commandLineArgs": "--nameAndy --headless"
+    }
+  }
+}

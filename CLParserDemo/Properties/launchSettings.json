@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CLParserDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "--name Andy --headless"
+    }
+  }
+}
